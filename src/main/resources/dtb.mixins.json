@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "net.naeryth.dtb.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"LightmapMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
