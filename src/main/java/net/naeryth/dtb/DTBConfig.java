@@ -1,5 +1,11 @@
 package net.naeryth.dtb;
 
-public record DTBConfig(boolean enabled, float strength, float gamma, boolean respectNightVision, int version) {
-    public static DTBConfig DEFAULT = new DTBConfig(true, 0.65f, 2.4f, true, 1);
+public record DTBConfig(
+        boolean enabled,
+        float strength,
+        float gamma,
+        boolean respectNightVision,
+        int version
+) {
+    public static final DTBConfig DEFAULT = new DTBConfig(true, 0.75f, 2.0f, true, 1);
 }

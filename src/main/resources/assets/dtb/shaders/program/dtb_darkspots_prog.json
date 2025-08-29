@@ -1,0 +1,13 @@
+{
+  "vertex":   "minecraft:blit",
+  "fragment": "dtb:dtb_darkspots",
+  "samplers": [
+    { "name": "DiffuseSampler" }
+  ],
+  "uniforms": [
+    { "name": "uStrength",  "type": "float", "count": 1, "values": [0.75] },
+    { "name": "uGamma",     "type": "float", "count": 1, "values": [2.0]  },
+    { "name": "uThreshold", "type": "float", "count": 1, "values": [0.35] },
+    { "name": "uSoftness",  "type": "float", "count": 1, "values": [0.20] }
+  ]
+}

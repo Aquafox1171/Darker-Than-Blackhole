@@ -1,0 +1,15 @@
+{
+  "targets": ["minecraft:swap", "minecraft:main"],
+  "passes": [
+    {
+      "program": "dtb:dtb_darkspots_prog",
+      "intarget": "minecraft:main",
+      "outtarget": "minecraft:swap"
+    },
+    {
+      "program": "minecraft:blit",
+      "intarget": "minecraft:swap",
+      "outtarget": "minecraft:main"
+    }
+  ]
+}
